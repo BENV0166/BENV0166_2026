@@ -1,0 +1,93 @@
+{
+    "coolingSetpoint": {
+        "type" : "constant",
+        "values" : [99]
+    },
+
+    "length": {
+        "type" : "constant",
+        "values" : [10]
+    },
+
+    "width": {
+        "type" : "int",
+        "values" : [5, 10]
+    },
+
+    "height": {
+        "type" : "float",
+        "values" : [3, 4]
+    },
+
+    "u_windows": {
+        "type" : "int",
+        "values" : [1.0, 6.0]
+    },
+
+    "g_value" : {
+        "type" : "float",
+        "values" : [0.3, 0.9]
+    },
+
+    "wwr" : {
+        "type" : "float",
+        "values" : [0.1, 0.9]
+    },
+
+    "ach_50" : {
+        "type" : "float",
+        "values" : [1, 10]
+    },
+
+    "ventilationRate" : {
+        "type" : "categorical",
+        "values" : [
+            0.0,
+            0.010,
+            0.020
+        ]
+    },
+
+    "slabInsulationThickness" : {
+        "type" : "categorical",
+        "values" : [
+            0.0001,
+            0.025,
+            0.050,
+            0.075,
+            0.100
+        ]
+    },
+
+    "wallInsulationThickness" : {
+        "type" : "categorical",
+        "values" : [
+            0.0001,
+            0.025,
+            0.050,
+            0.075,
+            0.100
+        ]
+    },
+
+    "roofInsulationThickness" : {
+        "type" : "categorical",
+        "values" : [
+            0.0001,
+            0.025,
+            0.050,
+            0.075,
+            0.100
+        ]
+    },
+
+    "fixedShadingDepth" : {
+        "type" : "float",
+        "values" : [0.01, 1.0]
+    },
+
+    "roofAbsorptance" : {
+        "type" : "constant",
+        "values" : [0.7]
+    }
+}
