@@ -4,6 +4,8 @@ The following is a list of the software we will be using in the module. Please d
 
 You may also refer to the new Python Programming for Sustainable Built Environments Moodle page for help on installation of Python and VS Code [Moodle](https://moodle.ucl.ac.uk/course/view.php?id=56085).
 
+I would recommend that you leave up to 5 GB of disk space on your machine.
+
 ## Python 
 Requirements: Python 3.13 The code has not been verified to work on older or newer versions of Python.
 
